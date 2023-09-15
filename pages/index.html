@@ -1,10 +1,16 @@
+<!DOCTYPE html>
 <html>
 <head>
-    <title>Hello World</title>
+    <title>Simple Form</title>
 </head>
 <body>
-    <h1>Hello World!</h1>
-    <p>Welcome to the index.html web page..</p>
-    <!--<p>Here's a link to <a href="ipsum.html">Ipsum</a></p>-->
+    <h1>Simple Form</h1>
+    <form method="post" action="/submit">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name"><br>
+        <label for="message">Message:</label>
+        <textarea name="message" id="message"></textarea><br>
+        <input type="submit" value="Submit">
+    </form>
 </body>
 </html>
